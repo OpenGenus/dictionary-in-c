@@ -30,6 +30,7 @@ directory-operations.o: $(DIR_OPER)
 clean:
 	rm -f $(OBJECTS)
 
+#run the install.sh script
 .PHONY: install
 install: install.sh
 	source install.sh
