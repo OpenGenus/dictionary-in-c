@@ -8,7 +8,6 @@ CFLAGS  = -Wall
 FILE_OPER = file-operations.c file-operations.h
 DIR_OPER = directory-operations.c directory-operations.h
 
-APP = /mydict
 
 #.PHONY avoids conflicts with files in the directory
 
