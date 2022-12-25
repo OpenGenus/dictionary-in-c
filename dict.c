@@ -10,9 +10,11 @@ int main( int argc , char** argv ) {
     if (argc == 2) {
         
         char* target = to_upper_string(argv[1]);
+        
+        //get the current home directory
         char* homedir = get_homedir();
         
-        //get the current working directory
+        
 
         
 
@@ -27,7 +29,9 @@ int main( int argc , char** argv ) {
 
         if ( search_word(target,f) ){
         
-        printf("%s", target);char *getcwd(char *buf, size_t size);
+        printf("%s", target);
+        
+        char *getcwd(char *buf, size_t size);
 
 
         print_results(f,target);
