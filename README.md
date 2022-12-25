@@ -5,7 +5,7 @@
 
 
 #### $ sudo chmod 777 install.sh   
-#### $ make all
+#### $ make
 #### $ make clean
 #### $ make install
 
