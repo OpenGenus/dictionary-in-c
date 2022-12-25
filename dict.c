@@ -16,9 +16,6 @@ int main( int argc , char** argv ) {
         
         
 
-        
-
-
         strcat( homedir , DATA_BASE );
 
 
@@ -26,14 +23,14 @@ int main( int argc , char** argv ) {
         FILE *f = prepare_file( homedir , MODE );
 
         
-
+        //if the search result is successfull
         if ( search_word(target,f) ){
         
+        //print the word searched
         printf("%s", target);
         
-        char *getcwd(char *buf, size_t size);
 
-
+        //print the definitions for the word searched
         print_results(f,target);
 
 
